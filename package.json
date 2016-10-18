@@ -35,5 +35,8 @@
     "socket.io": "^1.5.0",
     "webpack": "^1.13.2",
     "webpack-merge": "^0.15.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^1.16.2"
   }
 }
