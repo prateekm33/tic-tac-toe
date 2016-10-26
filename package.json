@@ -10,6 +10,11 @@
     "prod": "webpack --config webpack/webpack.prod.js --content-base ./src",
     "rebuild": "rm -rf src/dist && npm run prod"
   },
+  
+  "bin": {
+    "tictactoe": "bin/ttt_node.js"
+  },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/prateekm33/tic-tac-toe.git"

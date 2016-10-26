@@ -1,0 +1,102 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'link' ]
+2 info using npm@3.9.0
+3 info using node@v6.0.0
+4 verbose linkPkg /Users/prateekm/Desktop/projects/tictactoe
+5 silly gentlyRm /usr/local/lib/node_modules/tictactoe is being purged
+6 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/tictactoe
+7 verbose link build target /usr/local/lib/node_modules/tictactoe
+8 silly loadCurrentTree Starting
+9 silly install loadCurrentTree
+10 silly install readLocalPackageData
+11 silly install normalizeTree
+12 silly loadCurrentTree Finishing
+13 silly loadIdealTree Starting
+14 silly install loadIdealTree
+15 silly cloneCurrentTree Starting
+16 silly install cloneCurrentTreeToIdealTree
+17 silly cloneCurrentTree Finishing
+18 silly loadShrinkwrap Starting
+19 silly install loadShrinkwrap
+20 silly loadShrinkwrap Finishing
+21 silly loadAllDepsIntoIdealTree Starting
+22 silly install loadAllDepsIntoIdealTree
+23 silly loadAllDepsIntoIdealTree Finishing
+24 silly idealTree:prePrune tictactoe@1.0.0
+24 silly idealTree:prePrune └── readline@1.3.0
+25 silly loadIdealTree Finishing
+26 silly currentTree tictactoe@1.0.0
+26 silly currentTree └── readline@1.3.0
+27 silly idealTree tictactoe@1.0.0
+27 silly idealTree └── readline@1.3.0
+28 silly generateActionsToTake Starting
+29 silly install generateActionsToTake
+30 silly generateActionsToTake Finishing
+31 silly diffTrees action count 0
+32 silly decomposeActions action count 0
+33 silly executeActions Starting
+34 silly install executeActions
+35 silly doSerial global-install 0
+36 silly doParallel fetch 0
+37 verbose correctMkdir /Users/prateekm/.npm/_locks correctMkdir not in flight; initializing
+38 verbose lock using /Users/prateekm/.npm/_locks/staging-0387292db769757a.lock for /Users/prateekm/Desktop/projects/tictactoe/node_modules/.staging
+39 silly doParallel extract 0
+40 silly doParallel preinstall 0
+41 silly doReverseSerial remove 0
+42 silly doSerial move 0
+43 silly doSerial finalize 0
+44 silly doSerial build 0
+45 silly doSerial global-link 0
+46 silly doParallel update-linked 0
+47 silly doSerial install 0
+48 silly doSerial postinstall 0
+49 verbose unlock done using /Users/prateekm/.npm/_locks/staging-0387292db769757a.lock for /Users/prateekm/Desktop/projects/tictactoe/node_modules/.staging
+50 silly executeActions Finishing
+51 silly rollbackFailedOptional Starting
+52 silly rollbackFailedOptional Finishing
+53 silly runTopLevelLifecycles Starting
+54 silly install runTopLevelLifecycles
+55 silly preinstall tictactoe@1.0.0 /Users/prateekm/Desktop/projects/tictactoe/tictactoe-af7ce57a
+56 info lifecycle tictactoe@1.0.0~preinstall: tictactoe@1.0.0
+57 silly lifecycle tictactoe@1.0.0~preinstall: no script for preinstall, continuing
+58 silly build tictactoe@1.0.0
+59 info linkStuff tictactoe@1.0.0
+60 silly linkStuff tictactoe@1.0.0 has /Users/prateekm/Desktop/projects as its parent node_modules
+61 verbose linkBins tictactoe@1.0.0
+62 verbose linkMans tictactoe@1.0.0
+63 silly install tictactoe@1.0.0 /Users/prateekm/Desktop/projects/tictactoe/tictactoe-af7ce57a
+64 info lifecycle tictactoe@1.0.0~install: tictactoe@1.0.0
+65 silly lifecycle tictactoe@1.0.0~install: no script for install, continuing
+66 silly postinstall tictactoe@1.0.0 /Users/prateekm/Desktop/projects/tictactoe/tictactoe-af7ce57a
+67 info lifecycle tictactoe@1.0.0~postinstall: tictactoe@1.0.0
+68 silly lifecycle tictactoe@1.0.0~postinstall: no script for postinstall, continuing
+69 silly prepublish tictactoe@1.0.0 /Users/prateekm/Desktop/projects/tictactoe/tictactoe-af7ce57a
+70 info lifecycle tictactoe@1.0.0~prepublish: tictactoe@1.0.0
+71 silly lifecycle tictactoe@1.0.0~prepublish: no script for prepublish, continuing
+72 silly runTopLevelLifecycles Finishing
+73 silly install printInstalled
+74 info build /usr/local/lib/node_modules/tictactoe
+75 info linkStuff tictactoe@1.0.0
+76 silly linkStuff tictactoe@1.0.0 has /usr/local/lib/node_modules as its parent node_modules
+77 silly linkStuff tictactoe@1.0.0 is part of a global install
+78 silly linkStuff tictactoe@1.0.0 is installed into a global node_modules
+79 silly linkStuff tictactoe@1.0.0 is installed into the top-level global node_modules
+80 verbose linkBins tictactoe@1.0.0
+81 verbose link bins [ { tictactoe: 'bin/ttt_node.js' }, '/usr/local/bin', true ]
+82 verbose linkMans tictactoe@1.0.0
+83 verbose stack Error: ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/tictactoe/bin/ttt_node.js'
+83 verbose stack     at Error (native)
+84 verbose cwd /Users/prateekm/Desktop/projects/tictactoe
+85 error Darwin 15.6.0
+86 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "link"
+87 error node v6.0.0
+88 error npm  v3.9.0
+89 error path /usr/local/lib/node_modules/tictactoe/bin/ttt_node.js
+90 error code ENOENT
+91 error errno -2
+92 error syscall chmod
+93 error enoent ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/tictactoe/bin/ttt_node.js'
+94 error enoent ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/tictactoe/bin/ttt_node.js'
+94 error enoent This is most likely not a problem with npm itself
+94 error enoent and is related to npm not being able to find a file.
+95 verbose exit [ -2, true ]
